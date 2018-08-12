@@ -16,7 +16,7 @@ class StudentsController < ApplicationController
     # @student = Student.find_by(first_name: params['first_name'])
     # session[:form_params] = params.inspect
     #
-    binding.pry
+    # binding.pry
     redirect_to student_path(@student)
   end
 
